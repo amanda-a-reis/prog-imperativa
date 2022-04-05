@@ -67,7 +67,7 @@ const curso = {
         return true 
     } else if (mediaAluno < this.notaAprovacao || faltasAluno > this.faltasMax){
         return false
-    } else if ( faltasAluno == this.faltasMax && mediaAluno == this.faltasMax + 0,1 * this.faltasMax){
+    } else if ( faltasAluno == this.faltasMax && mediaAluno == this.faltasMax + 0.1 * this.faltasMax){
         return true
     }
 
