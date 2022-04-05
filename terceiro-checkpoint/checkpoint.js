@@ -44,7 +44,7 @@ const fabricio = new Aluno("Fabricio", 5, [1,1,1,1] )
 // console.log(fabricio.calcularMedia());
 // console.log(fabricio.incrementaFaltas());
 
-//Passos 3 e 4
+//Passos 3, 4 5 e 6
 
 const curso = {
     nome: "CTD",
